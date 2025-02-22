@@ -1,0 +1,18 @@
+# 5. Sequência de Fibonacci
+# Escreva um programa que peça ao usuário um número N e exiba os N primeiros termos da
+# Sequência de Fibonacci.
+# Obs: A sequência de Fibonacci começa com 0 e 1, e cada termo seguinte é a soma dos dois
+# anteriores:
+
+n = int(input("Digite um número para iniciar a sequência de Fibonacci: "))
+
+fib1 = 0
+fib2 = 1
+contador = 0
+
+while contador < n:
+    print(fib1)
+    fibS = fib1 + fib2
+    fib1 = fib2
+    fib2 = fibS
+    contador= contador + 1
