@@ -1,0 +1,12 @@
+# 2. Soma de Números Positivos
+# Faça um programa que solicite números ao usuário até que ele digite um número negativo.
+# Quando isso acontecer, o programa deve exibir a soma de todos os números positivos
+# digitados e encerrar.
+
+numero=0;
+soma=0;
+while(numero>=0):
+    numero=int(input("Digite um número para somar, e para encerrar o programa digite um número negativo: "))
+    if(numero>0):
+        soma=soma+numero;
+print(soma);
