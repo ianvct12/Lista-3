@@ -1,0 +1,15 @@
+# 4. Números Ímpares em um Intervalo
+# Peça ao usuário dois números inteiros, representando um intervalo A,B. O programa deve
+# exibir todos os números ímpares dentro desse intervalo (inclusive os limites, se forem
+# ímpares).
+
+a=int(input("Digite um número inteiro: "))
+b=int(input("Digite um número inteiro: "))
+if(a<=b):
+    for a in range(b+1):
+        if(a%2!=0):
+            print(a)
+else:
+    for b in range(a+1):
+        if(b%2!=0):
+            print(b)
